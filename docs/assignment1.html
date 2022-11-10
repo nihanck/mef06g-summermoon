@@ -292,7 +292,7 @@ $ DealValue         &lt;dbl&gt; 100000, 250000, NA, 120000, 100000, 1000000, 250
 $ Stage             &lt;chr&gt; "Seed Stage", "Seed Stage", "Seed Stage", "Seed Stag…</code></pre>
 </div>
 </div>
-<p>Fixing the wrong values in coloumn ‘Sector’</p>
+<p>Fixing the wrong values in coloumn ‘Sector’.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>dfSector <span class="ot">&lt;-</span> data<span class="sc">$</span>Sector</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>dfSector[dfSector <span class="sc">==</span> <span class="st">'Telecpm'</span>] <span class="ot">&lt;-</span> <span class="st">'Telecom'</span></span>

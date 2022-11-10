@@ -51,7 +51,7 @@ data<-rename(data,DealValue=`Deal Value (USD)`)
 data<-rename(data,Stage=`Investment Stage`)
 glimpse(data)
 ```
-Fixing the wrong values in coloumn 'Sector'
+Fixing the wrong values in coloumn 'Sector'.
 ```{r}
 dfSector <- data$Sector
 dfSector[dfSector == 'Telecpm'] <- 'Telecom'
